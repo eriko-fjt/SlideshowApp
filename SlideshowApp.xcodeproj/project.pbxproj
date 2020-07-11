@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1C9F2E24B89A1E0044D590 /* MagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1C9F2D24B89A1E0044D590 /* MagViewController.swift */; };
 		4E4C0E92249DB33D00D29BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C0E91249DB33D00D29BC9 /* AppDelegate.swift */; };
 		4E4C0E94249DB33D00D29BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C0E93249DB33D00D29BC9 /* SceneDelegate.swift */; };
 		4E4C0E96249DB33D00D29BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C0E95249DB33D00D29BC9 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1C9F2D24B89A1E0044D590 /* MagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagViewController.swift; sourceTree = "<group>"; };
 		4E4C0E8E249DB33D00D29BC9 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4C0E91249DB33D00D29BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E4C0E93249DB33D00D29BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4E4C0E91249DB33D00D29BC9 /* AppDelegate.swift */,
 				4E4C0E93249DB33D00D29BC9 /* SceneDelegate.swift */,
 				4E4C0E95249DB33D00D29BC9 /* ViewController.swift */,
+				4E1C9F2D24B89A1E0044D590 /* MagViewController.swift */,
 				4E4C0E97249DB33D00D29BC9 /* Main.storyboard */,
 				4E4C0E9A249DB33D00D29BC9 /* Assets.xcassets */,
 				4E4C0E9C249DB33D00D29BC9 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				4E4C0E96249DB33D00D29BC9 /* ViewController.swift in Sources */,
 				4E4C0E92249DB33D00D29BC9 /* AppDelegate.swift in Sources */,
+				4E1C9F2E24B89A1E0044D590 /* MagViewController.swift in Sources */,
 				4E4C0E94249DB33D00D29BC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
