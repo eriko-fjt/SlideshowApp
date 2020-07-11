@@ -26,9 +26,8 @@
                                 <rect key="frame" x="172" y="712" width="70" height="70"/>
                                 <color key="backgroundColor" red="0.64024531811474916" green="1" blue="0.95138192324710935" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="1nQ-Wo-jMf"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="3Cl-IE-nQq"/>
-                                    <constraint firstAttribute="height" constant="70" id="flL-Ln-OhG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="vzH-JV-8VQ"/>
                                 </constraints>
                                 <state key="normal" title="再生/停止"/>
                                 <userDefinedRuntimeAttributes>
@@ -45,8 +44,8 @@
                                 <rect key="frame" x="82" y="717" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.62915160897610767" green="0.7549340375201663" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Hie-jB-EeN"/>
-                                    <constraint firstAttribute="width" constant="60" id="ujL-vj-lyt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="6Jt-ck-KT6"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="gOI-4l-wNC"/>
                                 </constraints>
                                 <state key="normal" title="back"/>
                                 <userDefinedRuntimeAttributes>
@@ -63,9 +62,8 @@
                                 <rect key="frame" x="272" y="717" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.59217909985746697" green="0.77315839857167401" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="CKb-cj-PMm"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="fOX-8b-qIW"/>
-                                    <constraint firstAttribute="height" constant="60" id="glR-9x-xKQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="suc-Dt-BGy"/>
                                 </constraints>
                                 <state key="normal" title="next"/>
                                 <userDefinedRuntimeAttributes>
