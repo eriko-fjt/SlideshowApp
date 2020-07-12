@@ -27,12 +27,12 @@ class ViewController: UIViewController {
     
     
     //　スライドショーの画像の名前を入れた配列
-    let imageNameArray = ["cat1", "cat2", "cat3", "cat4", "cat5", "cat6"]
+    let imageNameArray = ["cat1.jpeg", "cat2.jpeg", "cat3.jpeg", "cat4.jpeg", "cat5.jpeg", "cat6.jpeg"]
     
     // 表示されている画像の、配列のインデックス
     var dispImageIndex : Int = 0
     
-    // 関数の中で使う？タイマー
+    // 関数の中で使うタイマー
     var timer: Timer!
     
     
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         
         
         // デフォルトで表示する画像。後で変更するかも。定数への格納不要な気がする・・・
-        let imageDefault = UIImage(named: "cat1")
+        let imageDefault = UIImage(named: "cat1.jpeg")
         imageView.image = imageDefault
         
         // 背景色
@@ -85,6 +85,9 @@ class ViewController: UIViewController {
             imageView.image = dispImage
         }
         
+        
+        
+        
     }
     
     
@@ -117,22 +120,24 @@ class ViewController: UIViewController {
     
     // 進むボタン
     @IBAction func nextSlide(_ sender: Any) {
-        // 画像の名前を、配列[インデックス]で取得して変数に格納
-        let imgName = imageNameArray[dispImageIndex]
-        
-        // UIImageから、指定した画像を変数へ格納
-        let dispImage = UIImage(named: imgName)
-        
         
         if self.timer == nil && dispImageIndex == imageNameArray.count - 1{
             // タイマーが動いていない時、かつ、最後の画像を表示している時
             dispImageIndex = 0
-            imageView.image = dispImage
+            
+            // 画像の名前を、配列[インデックス]で取得して変数に格納
+            let imgName = imageNameArray[dispImageIndex]
+            
+            imageView.image = UIImage(named: imgName)
             
         } else if self.timer == nil && dispImageIndex != imageNameArray.count - 1 {
             // タイマーが動いていない時、かつ、最後の画像以外を表示している時
             dispImageIndex += 1
-            imageView.image = dispImage
+            
+            // 画像の名前を、配列[インデックス]で取得して変数に格納
+            let imgName = imageNameArray[dispImageIndex]
+            
+            imageView.image = UIImage(named: imgName)
         }
      
         
@@ -141,23 +146,24 @@ class ViewController: UIViewController {
     
     // 戻るボタンを押した時
     @IBAction func backSlide(_ sender: Any) {
-        // インデックスを-１して、画像表示関数を呼ぶ？
-        // 画像の名前を、配列[インデックス]で取得して変数に格納
-            let imgName = imageNameArray[dispImageIndex]
-            
-            // UIImageから、指定した画像を変数へ格納
-            let dispImage = UIImage(named: imgName)
-            
-            
+
             if self.timer == nil && dispImageIndex == 0 {
                 // タイマーが動いていない時、かつ、最初の画像を表示している時
                 dispImageIndex = imageNameArray.count - 1
-                imageView.image = dispImage
+                
+                // 画像の名前を、配列[インデックス]で取得して変数に格納
+                let imgName = imageNameArray[dispImageIndex]
+                
+                imageView.image = UIImage(named: imgName)
                 
             } else if self.timer == nil && dispImageIndex != 0 {
                 // タイマーが動いていない時、かつ、最初の画像意外を表示している時
                 dispImageIndex -= 1
-                imageView.image = dispImage
+                
+                // 画像の名前を、配列[インデックス]で取得して変数に格納
+                let imgName = imageNameArray[dispImageIndex]
+                
+                imageView.image = UIImage(named: imgName)
             }
             
         }
