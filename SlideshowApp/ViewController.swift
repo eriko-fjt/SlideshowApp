@@ -67,22 +67,19 @@ class ViewController: UIViewController {
     // 画像を表示する関数　=　2秒ごとに呼び出される関数
     @objc func playSlide (_ timer: Timer) {
         
-        // 画像の名前を、配列[インデックス]で取得して変数に格納
-        let imgName = imageNameArray[dispImageIndex]
-        
-        // UIImageから、指定した画像を変数へ格納
-        let dispImage = UIImage(named: imgName)
         
         //
         if dispImageIndex ==  imageNameArray.count - 1 {
             // インデックス０の画像を表示
             dispImageIndex = 0
-            imageView.image = dispImage
+            let imgName = imageNameArray[dispImageIndex]
+            imageView.image = UIImage(named: imgName)
             
         } else {
             // 画像のインデックスを+1 して表示
             dispImageIndex += 1
-            imageView.image = dispImage
+            let imgName = imageNameArray[dispImageIndex]
+            imageView.image = UIImage(named: imgName)
         }
         
         
@@ -195,11 +192,6 @@ class ViewController: UIViewController {
             let magViewController : MagViewController = segue.destination as! MagViewController
             magViewController.magImage = sender as? UIImageView
         }
-        
-        
-        
-        
-        
     }
     
     // 拡大画面から、戻るボタンで戻ってくるアクション

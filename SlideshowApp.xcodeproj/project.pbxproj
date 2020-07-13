@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1C966124BC6296000E4CDC /* cat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1C966024BC6296000E4CDC /* cat1.jpeg */; };
+		4E1C966324BC62A2000E4CDC /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1C966224BC62A2000E4CDC /* cat2.jpeg */; };
+		4E1C966524BC62AD000E4CDC /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1C966424BC62AD000E4CDC /* cat3.jpeg */; };
+		4E1C966724BC62B6000E4CDC /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1C966624BC62B6000E4CDC /* cat4.jpeg */; };
+		4E1C966924BC62BF000E4CDC /* cat5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1C966824BC62BF000E4CDC /* cat5.jpeg */; };
+		4E1C966B24BC62C8000E4CDC /* cat6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E1C966A24BC62C7000E4CDC /* cat6.jpeg */; };
 		4E1C9F2E24B89A1E0044D590 /* MagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1C9F2D24B89A1E0044D590 /* MagViewController.swift */; };
-		4E433B9D24BB40F5005AA256 /* cat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433B9C24BB40F5005AA256 /* cat1.jpeg */; };
-		4E433B9F24BB40FB005AA256 /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433B9E24BB40FB005AA256 /* cat2.jpeg */; };
-		4E433BA124BB4109005AA256 /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433BA024BB4109005AA256 /* cat3.jpeg */; };
-		4E433BA324BB4111005AA256 /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433BA224BB4111005AA256 /* cat4.jpeg */; };
-		4E433BA524BB4116005AA256 /* cat5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433BA424BB4116005AA256 /* cat5.jpeg */; };
-		4E433BA724BB411D005AA256 /* cat6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433BA624BB411D005AA256 /* cat6.jpeg */; };
 		4E4C0E92249DB33D00D29BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C0E91249DB33D00D29BC9 /* AppDelegate.swift */; };
 		4E4C0E94249DB33D00D29BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C0E93249DB33D00D29BC9 /* SceneDelegate.swift */; };
 		4E4C0E96249DB33D00D29BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C0E95249DB33D00D29BC9 /* ViewController.swift */; };
@@ -22,13 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1C966024BC6296000E4CDC /* cat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpeg; sourceTree = "<group>"; };
+		4E1C966224BC62A2000E4CDC /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpeg; sourceTree = "<group>"; };
+		4E1C966424BC62AD000E4CDC /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpeg; sourceTree = "<group>"; };
+		4E1C966624BC62B6000E4CDC /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat4.jpeg; sourceTree = "<group>"; };
+		4E1C966824BC62BF000E4CDC /* cat5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat5.jpeg; sourceTree = "<group>"; };
+		4E1C966A24BC62C7000E4CDC /* cat6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat6.jpeg; sourceTree = "<group>"; };
 		4E1C9F2D24B89A1E0044D590 /* MagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagViewController.swift; sourceTree = "<group>"; };
-		4E433B9C24BB40F5005AA256 /* cat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat1.jpeg; path = ../../../cat1.jpeg; sourceTree = "<group>"; };
-		4E433B9E24BB40FB005AA256 /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat2.jpeg; path = ../../../cat2.jpeg; sourceTree = "<group>"; };
-		4E433BA024BB4109005AA256 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat3.jpeg; path = ../../../cat3.jpeg; sourceTree = "<group>"; };
-		4E433BA224BB4111005AA256 /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat4.jpeg; path = ../../../cat4.jpeg; sourceTree = "<group>"; };
-		4E433BA424BB4116005AA256 /* cat5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat5.jpeg; path = ../../../cat5.jpeg; sourceTree = "<group>"; };
-		4E433BA624BB411D005AA256 /* cat6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat6.jpeg; path = ../../../cat6.jpeg; sourceTree = "<group>"; };
 		4E4C0E8E249DB33D00D29BC9 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4C0E91249DB33D00D29BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E4C0E93249DB33D00D29BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,12 +68,12 @@
 		4E4C0E90249DB33D00D29BC9 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
-				4E433BA624BB411D005AA256 /* cat6.jpeg */,
-				4E433BA424BB4116005AA256 /* cat5.jpeg */,
-				4E433BA224BB4111005AA256 /* cat4.jpeg */,
-				4E433BA024BB4109005AA256 /* cat3.jpeg */,
-				4E433B9E24BB40FB005AA256 /* cat2.jpeg */,
-				4E433B9C24BB40F5005AA256 /* cat1.jpeg */,
+				4E1C966024BC6296000E4CDC /* cat1.jpeg */,
+				4E1C966224BC62A2000E4CDC /* cat2.jpeg */,
+				4E1C966424BC62AD000E4CDC /* cat3.jpeg */,
+				4E1C966624BC62B6000E4CDC /* cat4.jpeg */,
+				4E1C966824BC62BF000E4CDC /* cat5.jpeg */,
+				4E1C966A24BC62C7000E4CDC /* cat6.jpeg */,
 				4E4C0E91249DB33D00D29BC9 /* AppDelegate.swift */,
 				4E4C0E93249DB33D00D29BC9 /* SceneDelegate.swift */,
 				4E4C0E95249DB33D00D29BC9 /* ViewController.swift */,
@@ -143,14 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E433BA124BB4109005AA256 /* cat3.jpeg in Resources */,
-				4E433BA324BB4111005AA256 /* cat4.jpeg in Resources */,
+				4E1C966524BC62AD000E4CDC /* cat3.jpeg in Resources */,
+				4E1C966724BC62B6000E4CDC /* cat4.jpeg in Resources */,
 				4E4C0E9E249DB33D00D29BC9 /* LaunchScreen.storyboard in Resources */,
-				4E433BA724BB411D005AA256 /* cat6.jpeg in Resources */,
-				4E433B9D24BB40F5005AA256 /* cat1.jpeg in Resources */,
+				4E1C966B24BC62C8000E4CDC /* cat6.jpeg in Resources */,
+				4E1C966124BC6296000E4CDC /* cat1.jpeg in Resources */,
 				4E4C0E99249DB33D00D29BC9 /* Main.storyboard in Resources */,
-				4E433B9F24BB40FB005AA256 /* cat2.jpeg in Resources */,
-				4E433BA524BB4116005AA256 /* cat5.jpeg in Resources */,
+				4E1C966324BC62A2000E4CDC /* cat2.jpeg in Resources */,
+				4E1C966924BC62BF000E4CDC /* cat5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
